@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnmodifiedSample",
+            "request": "launch",
+            "mainClass": "example.utils.UnmodifiedSample",
+            "projectName": "security"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnmodifiedSample",
+            "request": "launch",
+            "mainClass": "UnmodifiedSample",
+            "projectName": "security"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+Thread 0x81a08830
+
+  locals:
+
+Thread 0x81a10620
+
+  locals:
+
+Thread 0x81a00d70
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:144)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:165)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:216)
+
+  locals:
+    objectId=0x81a00f00, line=1
+    objectId=0x81a00ef0, line=1
+    objectId=0x81a00f00, line=2
+    objectId=0x81a00d70, line=3
+    objectId=0x81a00f20, line=3
+
+Thread 0x81a10798
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Reference.java:191)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:153)
+
+  locals:
+    objectId=0x81a10910, line=1
+    objectId=0x81a10910, line=2
+    objectId=0x81a10798, line=3
+
+Thread 0x81a18600
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at example.utils.UnmodifiedSample.buffer(Ljava/lang/Integer;)V (UnmodifiedSample.java:19)
+  at example.utils.UnmodifiedSample.main([Ljava/lang/String;)V (UnmodifiedSample.java:30)
+
+  locals:
+    objectId=0x81a18488, line=1
+    objectId=0x81a18498, line=2
+    objectId=0x81a184a8, line=2
+
